@@ -1,9 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.raphimc.immediatelyfast.neoforge.injection.mixins",
+  "package": "com.criticalrange.immediatelyfast_vulkanized.neoforge.injection.mixins",
   "compatibilityLevel": "JAVA_21",
-  "plugin": "net.raphimc.immediatelyfast.injection.ImmediatelyFastMixinPlugin",
+  "plugin": "com.criticalrange.immediatelyfast_vulkanized.injection.ImmediatelyFastMixinPlugin",
   "client": [
     "core.MixinNeoForgeRenderTypes",
     "hud_batching.MixinGuiLayerManager",

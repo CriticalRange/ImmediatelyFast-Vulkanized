@@ -17,12 +17,12 @@
 
 ## VulkanMod Compatibility
 
-**✅ FULLY COMPATIBLE WITH VULKANMOD!** This fork has been specifically designed to work alongside VulkanMod for maximum performance gains.
+**🔄 COMPATIBLE WITH VULKANMOD (SMART MODE)** This fork intelligently works alongside VulkanMod by enabling compatible optimizations while safely disabling those that conflict with Vulkan's rendering pipeline.
 
-### 🔧 **Automatic Compatibility System**
-- **Smart Detection**: Automatically detects VulkanMod presence and switches to compatibility mode
-- **Selective Optimization**: Only applies VulkanMod-compatible optimizations while disabling conflicting ones
-- **Cross-Platform**: Works with Fabric, Forge, and NeoForge loaders
+### 🔧 **Intelligent Compatibility System**
+- **Automatic Detection**: Detects VulkanMod presence and automatically adapts optimization strategy
+- **Selective Optimization**: Enables Vulkan-safe optimizations while disabling OpenGL-specific features
+- **Cross-Platform**: Consistent behavior across Fabric, Forge, and NeoForge loaders
 
 ### ✅ **Optimizations Enabled with VulkanMod**
 These optimizations are safe to use alongside VulkanMod and provide significant performance improvements:
@@ -36,13 +36,15 @@ These optimizations are safe to use alongside VulkanMod and provide significant 
 - **Fast Text Lookup**: Caches glyph data between text rendering operations
 
 ### ❌ **Optimizations Disabled with VulkanMod**
-These optimizations conflict with VulkanMod's Vulkan rendering pipeline and are automatically disabled:
+These optimizations conflict with VulkanMod's Vulkan rendering pipeline and are **automatically disabled** for compatibility:
 
 - **HUD Batching**: Batches HUD rendering calls *(conflicts with Vulkan pipeline)*
 - **Fast Buffer Upload**: OpenGL-specific buffer optimization using `glBufferSubData`
 - **Core Rendering Hooks**: GameRenderer modifications that interfere with Vulkan
 - **Screen Batching**: Screen rendering optimizations
 - **Error Checking Disable**: OpenGL error checking removal
+
+**Note**: This selective approach ensures VulkanMod can operate optimally with its Vulkan pipeline while still providing substantial performance improvements through compatible optimizations.
 
 ### ⚙️ **Configuration**
 Configure VulkanMod-specific settings in `config/immediatelyfast.json`:
@@ -159,7 +161,7 @@ Known incompatibilities:
 - OptiFabric / OptiFine
 - Most closed source "clients" like LunarClient and LabyMod
 
-**✅ Compatible with VulkanMod!** This fork has been specifically designed to work alongside VulkanMod for maximum performance gains.
+**🔄 Compatible with VulkanMod (Smart Mode)** This fork intelligently works alongside VulkanMod using selective optimizations for optimal performance.
 
 If you encounter any issues, please report them on the [Issue Tracker](https://github.com/RaphiMC/ImmediatelyFast/issues).
 

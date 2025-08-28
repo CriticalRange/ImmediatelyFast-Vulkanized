@@ -1,9 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.raphimc.immediatelyfast.fabric.injection.mixins",
+  "package": "com.criticalrange.immediatelyfast_vulkanized.fabric.injection.mixins",
   "compatibilityLevel": "JAVA_21",
-  "plugin": "net.raphimc.immediatelyfast.injection.ImmediatelyFastMixinPlugin",
+  "plugin": "com.criticalrange.immediatelyfast_vulkanized.injection.ImmediatelyFastMixinPlugin",
   "client": [
     "hud_batching.compat.appleskin.MixinAppleSkin_HUDOverlayHandler",
     "screen_batching.MixinGameRenderer"
