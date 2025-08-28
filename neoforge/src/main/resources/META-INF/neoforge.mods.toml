@@ -4,12 +4,12 @@ issueTrackerURL = "https://github.com/RaphiMC/ImmediatelyFast/issues"
 license = "LGPL-3.0"
 
 [[mods]]
-modId = "immediatelyfast"
+modId = "immediatelyfast_vulkanized"
 version = "${version}"
-displayName = "ImmediatelyFast"
+displayName = "ImmediatelyFast Vulkanized"
 authors = "RK_01"
 description = '''
-Speed up and optimize immediate mode rendering in Minecraft
+Speed up and optimize immediate mode rendering in Minecraft VulkanMod
 '''
 logoFile = "immediatelyfast-icon.png"
 

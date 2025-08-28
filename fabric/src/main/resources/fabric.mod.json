@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "immediatelyfast",
+  "id": "immediatelyfast_vulkanized",
   "version": "${version}",
-  "name": "ImmediatelyFast",
-  "description": "Speed up and optimize immediate mode rendering in Minecraft",
+  "name": "ImmediatelyFast Vulkanized",
+  "description": "Speed up and optimize immediate mode rendering in Minecraft. Now compatible with VulkanMod!",
   "authors": [
     "RK_01"
   ],
@@ -28,8 +28,7 @@
     "sodium": "*"
   },
   "breaks": {
-    "optifabric": "*",
-    "vulkanmod": "*"
+    "optifabric": "*"
   },
   "custom": {
     "modmenu": {
